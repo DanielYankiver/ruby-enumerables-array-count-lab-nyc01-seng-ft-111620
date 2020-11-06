@@ -2,9 +2,8 @@
 
 def count_strings(array)
   array.count do |element| 
-    string = 0 
     if element == String 
-      string + 1 
+      += 1 
   end 
 end
 
